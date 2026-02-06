@@ -362,6 +362,30 @@
               "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/Waku_org&output=png",
               "twitter_handle": "Waku_org",
               "website_url": null
+            },
+            {
+              "id": "session",
+              "name": "Session",
+              "description": "Decentralized end-to-end encrypted messenger with metadata privacy",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/github/session-foundation&w=400&h=400&fit=cover&output=png",
+              "twitter_handle": "session_app",
+              "website_url": "https://getsession.org"
+            },
+            {
+              "id": "simplex-chat",
+              "name": "SimpleX Chat",
+              "description": "Encrypted messenger with no user identifiers",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/github/simplex-chat&w=400&h=400&fit=cover&output=png",
+              "twitter_handle": "SimpleXChat",
+              "website_url": "https://simplex.chat"
+            },
+            {
+              "id": "status",
+              "name": "Status",
+              "description": "Decentralized messenger and crypto wallet built on Waku",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/github/status-im&w=400&h=400&fit=cover&output=png",
+              "twitter_handle": "ethstatus",
+              "website_url": "https://status.app"
             }
           ]
         },
