@@ -1,0 +1,6 @@
+scripts/
+market_map_v3.html
+registry.csv
+tasks/
+*.py
+*.ipynb

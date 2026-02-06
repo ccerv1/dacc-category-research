@@ -1,0 +1,764 @@
+{
+  "quadrants": [
+    {
+      "id": "atoms-survive",
+      "horizontal_axis": "atoms",
+      "vertical_axis": "survive",
+      "categories": [
+        {
+          "name": "Biodefense & Health Systems",
+          "projects": [
+            {
+              "id": "varro-inc",
+              "name": "Varro Inc.",
+              "description": "Biodefense technology company",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "pathoplexus",
+              "name": "Pathoplexus",
+              "description": "Pathogen detection and monitoring",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "osluv",
+              "name": "OSLUV",
+              "description": "Open source UV air purification systems",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "openwater",
+              "name": "Openwater",
+              "description": "Non-invasive medical imaging technology",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/openwater.cc&output=png",
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "mediledger",
+              "name": "MediLedger",
+              "description": "Pharmaceutical supply chain verification",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/mediledger.com&output=png",
+              "twitter_handle": null,
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Open Source Hardware & Silicon",
+          "projects": [
+            {
+              "id": "grapheneos",
+              "name": "GrapheneOS",
+              "description": "Privacy-focused mobile operating system",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/GrapheneOS&output=png",
+              "twitter_handle": "GrapheneOS",
+              "website_url": null
+            },
+            {
+              "id": "freedom-factory",
+              "name": "Freedom Factory (ethOS)",
+              "description": "Ethereum-native mobile operating system",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/ethosmobile.org&output=png",
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "nanographs",
+              "name": "Nanographs",
+              "description": "Open source semiconductor technology",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/nanographs.io&output=png",
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "open-silicon-initiatives",
+              "name": "Open Silicon Initiatives",
+              "description": "Open source silicon and hardware design",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/opensiliconinitiative.org&output=png",
+              "twitter_handle": null,
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Resilient Manufacturing",
+          "projects": [
+            {
+              "id": "k-scale",
+              "name": "k-scale",
+              "description": "Open source robotics and manufacturing",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/k-scale.ai&output=png",
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "salvagegarden",
+              "name": "SalvageGarden",
+              "description": "Accessible mobility and assistive technology",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "simula",
+              "name": "Simula",
+              "description": "Open source VR/AR computing platform",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/simula.com&output=png",
+              "twitter_handle": null,
+              "website_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atoms-thrive",
+      "horizontal_axis": "atoms",
+      "vertical_axis": "thrive",
+      "categories": [
+        {
+          "name": "Decentralized Energy",
+          "projects": [
+            {
+              "id": "power-ledger",
+              "name": "Power Ledger",
+              "description": "Peer-to-peer energy trading platform",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/PowerLedger_io&output=png",
+              "twitter_handle": "PowerLedger_io",
+              "website_url": null
+            },
+            {
+              "id": "energy-web-foundation",
+              "name": "Energy Web Foundation",
+              "description": "Open-source blockchain for energy sector",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/energyweb.org&output=png",
+              "twitter_handle": "energywebx",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Property Rights & Registries",
+          "projects": [
+            {
+              "id": "georgia-land-registry",
+              "name": "Georgia Land Registry",
+              "description": "Government blockchain land registry",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "dubai-property-platform",
+              "name": "Dubai Property Platform",
+              "description": "Blockchain-based property registration",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "rwanda-cadastre",
+              "name": "Rwanda Cadastre",
+              "description": "Decentralized land registration system",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "realt",
+              "name": "RealT",
+              "description": "Tokenized real estate ownership",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/realt.co&output=png",
+              "twitter_handle": null,
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Civic Tech",
+          "projects": [
+            {
+              "id": "better-sg",
+              "name": "Better.SG",
+              "description": null,
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "edible-garden-city",
+              "name": "Edible Garden City",
+              "description": "Urban farming and food sovereignty",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "soil-social",
+              "name": "Soil Social",
+              "description": "Regenerative agriculture coordination",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            },
+            {
+              "id": "chiang-mai-maker-club",
+              "name": "Chiang Mai Maker Club",
+              "description": "Open source maker community",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bits-survive",
+      "horizontal_axis": "bits",
+      "vertical_axis": "survive",
+      "categories": [
+        {
+          "name": "Zero-Knowledge Systems",
+          "projects": [
+            {
+              "id": "aztec-network",
+              "name": "Aztec Network",
+              "description": "Privacy-first L2 with hybrid execution - Private Execution Environment plus public AVM",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/aztecnetwork&output=png",
+              "twitter_handle": "aztecnetwork",
+              "website_url": null
+            },
+            {
+              "id": "zksync",
+              "name": "zkSync",
+              "description": "zkEVM rollup with native account abstraction and hyperscaling roadmap",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/zksync&output=png",
+              "twitter_handle": "zksync",
+              "website_url": null
+            },
+            {
+              "id": "starknet",
+              "name": "StarkNet",
+              "description": "zk-STARK based L2 with Cairo language - quantum-resistant with no trusted setup",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/Starknet&output=png",
+              "twitter_handle": "Starknet",
+              "website_url": null
+            },
+            {
+              "id": "taceo",
+              "name": "Taceo",
+              "description": "ZK infrastructure tooling",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/taceo.io&output=png",
+              "twitter_handle": "TaceoProtocol",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Privacy-Preserving Computation",
+          "projects": [
+            {
+              "id": "zama",
+              "name": "Zama",
+              "description": "Confidential smart contracts via fully homomorphic encryption - computation on encrypted data",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/zama.ai&output=png",
+              "twitter_handle": "zama_fhe",
+              "website_url": null
+            },
+            {
+              "id": "zengo",
+              "name": "ZenGo",
+              "description": "MPC-based keyless crypto wallet",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/zengo.com&output=png",
+              "twitter_handle": "ZenGo",
+              "website_url": null
+            },
+            {
+              "id": "fireblocks",
+              "name": "Fireblocks",
+              "description": "Institutional digital asset custody",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/FireblocksHQ&output=png",
+              "twitter_handle": "FireblocksHQ",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Decentralized Identity & Attestation",
+          "projects": [
+            {
+              "id": "ens",
+              "name": "ENS",
+              "description": "Human-readable naming integrated with Ethereum identity - de facto standard",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/ensdomains&output=png",
+              "twitter_handle": "ensdomains",
+              "website_url": null
+            },
+            {
+              "id": "worldcoin",
+              "name": "Worldcoin",
+              "description": "Proof of personhood with ZK",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/worldcoin&output=png",
+              "twitter_handle": "worldcoin",
+              "website_url": null
+            },
+            {
+              "id": "polygon-id",
+              "name": "Polygon ID",
+              "description": "ZK-powered identity using Iden3 protocol - private by default with selective disclosure",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/PrivadoID&output=png",
+              "twitter_handle": "PrivadoID",
+              "website_url": null
+            },
+            {
+              "id": "eas",
+              "name": "EAS",
+              "description": "Ethereum Attestation Service",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/eas_eth&output=png",
+              "twitter_handle": "eas_eth",
+              "website_url": null
+            },
+            {
+              "id": "buenos-aires-quarkid",
+              "name": "Buenos Aires QuarkID",
+              "description": "Government ZK identity system",
+              "logo_url": null,
+              "twitter_handle": null,
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Communication & Messaging",
+          "projects": [
+            {
+              "id": "xmtp-labs",
+              "name": "XMTP Labs",
+              "description": "Decentralized messaging protocol",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/xmtp_&output=png",
+              "twitter_handle": "xmtp_",
+              "website_url": null
+            },
+            {
+              "id": "hopr",
+              "name": "HOPR",
+              "description": "Privacy-preserving messaging network",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/hoprnet&output=png",
+              "twitter_handle": "hoprnet",
+              "website_url": null
+            },
+            {
+              "id": "waku",
+              "name": "Waku",
+              "description": "Decentralized communication protocol",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/Waku_org&output=png",
+              "twitter_handle": "Waku_org",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Formal Verification & Security",
+          "projects": [
+            {
+              "id": "trail-of-bits",
+              "name": "Trail of Bits",
+              "description": "Security research and auditing",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/trailofbits&output=png",
+              "twitter_handle": "trailofbits",
+              "website_url": null
+            },
+            {
+              "id": "openzeppelin",
+              "name": "OpenZeppelin",
+              "description": "Smart contract security standards",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/OpenZeppelin&output=png",
+              "twitter_handle": "OpenZeppelin",
+              "website_url": null
+            },
+            {
+              "id": "spearbit",
+              "name": "Spearbit",
+              "description": "Security auditing collective",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/spearbit.com&output=png",
+              "twitter_handle": "spearbit",
+              "website_url": null
+            },
+            {
+              "id": "immunefi",
+              "name": "Immunefi",
+              "description": "Bug bounty platform paying $155M+ to whitehats for vulnerabilities",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/immunefi&output=png",
+              "twitter_handle": "immunefi",
+              "website_url": null
+            },
+            {
+              "id": "code4rena",
+              "name": "Code4rena",
+              "description": "Competitive audit platform with warden competition model",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/code4rena&output=png",
+              "twitter_handle": "code4rena",
+              "website_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bits-thrive",
+      "horizontal_axis": "bits",
+      "vertical_axis": "thrive",
+      "categories": [
+        {
+          "name": "Democratic Funding Mechanisms",
+          "projects": [
+            {
+              "id": "gitcoin",
+              "name": "Gitcoin",
+              "description": "Quadratic funding for public goods",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/gitcoin&output=png",
+              "twitter_handle": "gitcoin",
+              "website_url": null
+            },
+            {
+              "id": "octant",
+              "name": "Octant",
+              "description": "Epoch-based public goods funding",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/octant.app&output=png",
+              "twitter_handle": "octant_app",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Epistemic Infrastructure",
+          "projects": [
+            {
+              "id": "metaculus",
+              "name": "Metaculus",
+              "description": "Prediction and forecasting platform",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/metaculus&output=png",
+              "twitter_handle": "metaculus",
+              "website_url": null
+            },
+            {
+              "id": "polymarket",
+              "name": "Polymarket",
+              "description": "Prediction market platform",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/Polymarket&output=png",
+              "twitter_handle": "Polymarket",
+              "website_url": null
+            },
+            {
+              "id": "checkmatesg",
+              "name": "CheckMateSG",
+              "description": "Fact-checking infrastructure",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/CheckMateSG&output=png",
+              "twitter_handle": "CheckMateSG",
+              "website_url": null
+            },
+            {
+              "id": "deepsafe",
+              "name": "Deepsafe",
+              "description": "Deepfake detection technology",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/deepsafeai&output=png",
+              "twitter_handle": "deepsafeai",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Governance Tooling",
+          "projects": [
+            {
+              "id": "safe",
+              "name": "Safe",
+              "description": "Multi-signature infrastructure for asset custody - industry standard",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/safe&output=png",
+              "twitter_handle": "safe",
+              "website_url": null
+            },
+            {
+              "id": "argent",
+              "name": "Argent",
+              "description": "Smart wallet with social recovery",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/argentHQ&output=png",
+              "twitter_handle": "argentHQ",
+              "website_url": null
+            },
+            {
+              "id": "aragon",
+              "name": "Aragon",
+              "description": "DAO framework with 27x more active users than alternatives",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/AragonProject&output=png",
+              "twitter_handle": "AragonProject",
+              "website_url": null
+            },
+            {
+              "id": "compound-governor",
+              "name": "Compound Governor",
+              "description": "On-chain governance framework",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/compoundfinance&output=png",
+              "twitter_handle": "compoundfinance",
+              "website_url": null
+            },
+            {
+              "id": "metagov",
+              "name": "Metagov",
+              "description": "Governance research and tooling",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/metagov_org&output=png",
+              "twitter_handle": "metagov_org",
+              "website_url": null
+            },
+            {
+              "id": "fab-dao",
+              "name": "FAB DAO",
+              "description": "Taiwan civic tech DAO",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/fabdao&output=png",
+              "twitter_handle": "fabdao",
+              "website_url": null
+            },
+            {
+              "id": "tally",
+              "name": "Tally",
+              "description": "Governance aggregation and voting",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/tallyxyz&output=png",
+              "twitter_handle": "tallyxyz",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Decentralized Monetary Infrastructure",
+          "projects": [
+            {
+              "id": "circles",
+              "name": "Circles",
+              "description": "Web of trust UBI protocol",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/circlesubi&output=png",
+              "twitter_handle": "circlesubi",
+              "website_url": null
+            },
+            {
+              "id": "dai",
+              "name": "DAI",
+              "description": "Decentralized overcollateralized stablecoin by MakerDAO",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/MakerDAO&output=png",
+              "twitter_handle": "MakerDAO",
+              "website_url": null
+            },
+            {
+              "id": "ethena",
+              "name": "Ethena",
+              "description": "Delta-neutral stablecoin USDe growing from $146M to $6.2B",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/ethena_labs&output=png",
+              "twitter_handle": "ethena_labs",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Oracle Networks",
+          "projects": [
+            {
+              "id": "pyth",
+              "name": "Pyth",
+              "description": "Pull-model oracle with 400ms updates sourced from exchanges",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/PythNetwork&output=png",
+              "twitter_handle": "PythNetwork",
+              "website_url": null
+            },
+            {
+              "id": "chronicle",
+              "name": "Chronicle",
+              "description": "Original MakerDAO oracle with 61% cheaper operation via Scribe technology",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/chroniclelabs.org&output=png",
+              "twitter_handle": "chroniclelabs",
+              "website_url": null
+            },
+            {
+              "id": "redstone",
+              "name": "RedStone",
+              "description": "Hybrid push/pull architecture - fastest-growing oracle network",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/redstone_defi&output=png",
+              "twitter_handle": "redstone_defi",
+              "website_url": null
+            },
+            {
+              "id": "chainlink",
+              "name": "Chainlink",
+              "description": "Decentralized oracle network - first mover with 46-58% market share",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/chainlink&output=png",
+              "twitter_handle": "chainlink",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Cross-Chain Infrastructure",
+          "projects": [
+            {
+              "id": "layerzero",
+              "name": "LayerZero",
+              "description": "Omnichain interoperability with modular DVN architecture",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/LayerZero_Core&output=png",
+              "twitter_handle": "LayerZero_Core",
+              "website_url": null
+            },
+            {
+              "id": "axelar",
+              "name": "Axelar",
+              "description": "DPoS consensus with general message passing across 64+ chains",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/axelar&output=png",
+              "twitter_handle": "axelar",
+              "website_url": null
+            },
+            {
+              "id": "wormhole",
+              "name": "Wormhole",
+              "description": "Guardian network bridging with broad chain support",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/wormhole&output=png",
+              "twitter_handle": "wormhole",
+              "website_url": null
+            },
+            {
+              "id": "cow-protocol",
+              "name": "CoW Protocol",
+              "description": "Batch auctions with MEV protection returning value to users",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/cow.fi&output=png",
+              "twitter_handle": "CoWSwap",
+              "website_url": null
+            },
+            {
+              "id": "uniswapx",
+              "name": "UniswapX",
+              "description": "Cross-chain intent-based trading with Dutch auction order filling",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/Uniswap&output=png",
+              "twitter_handle": "Uniswap",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Data Availability & Storage",
+          "projects": [
+            {
+              "id": "celestia",
+              "name": "Celestia",
+              "description": "Modular DA layer with Data Availability Sampling; 8MB blocks targeting 1GB",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/celestia&output=png",
+              "twitter_handle": "celestia",
+              "website_url": null
+            },
+            {
+              "id": "eigenda",
+              "name": "EigenDA",
+              "description": "DA using Ethereum restaking via EigenLayer; 100MB/second throughput",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/eigen_da&output=png",
+              "twitter_handle": "eigen_da",
+              "website_url": null
+            },
+            {
+              "id": "avail",
+              "name": "Avail",
+              "description": "KZG commitments with fast finality for rollup data availability",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/AvailProject&output=png",
+              "twitter_handle": "AvailProject",
+              "website_url": null
+            },
+            {
+              "id": "filecoin",
+              "name": "Filecoin",
+              "description": "Incentivized storage with smart contracts (FVM) - 22 exabytes capacity",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/Filecoin&output=png",
+              "twitter_handle": "Filecoin",
+              "website_url": null
+            },
+            {
+              "id": "arweave",
+              "name": "Arweave",
+              "description": "Permanent storage with one-time payment ($9-12/GB for ~200-year storage)",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/ArweaveEco&output=png",
+              "twitter_handle": "ArweaveEco",
+              "website_url": null
+            },
+            {
+              "id": "radicle",
+              "name": "Radicle",
+              "description": "Decentralized code collaboration",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/radiclexyz&output=png",
+              "twitter_handle": "radiclexyz",
+              "website_url": null
+            },
+            {
+              "id": "the-graph",
+              "name": "The Graph",
+              "description": "Decentralized indexing covering 40+ blockchains for dApp data access",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/graphprotocol&output=png",
+              "twitter_handle": "graphprotocol",
+              "website_url": null
+            },
+            {
+              "id": "subsquid",
+              "name": "Subsquid",
+              "description": "Decentralized data lake for multi-chain",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/subsquid&output=png",
+              "twitter_handle": "subsquid",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Streaming & Treasury",
+          "projects": [
+            {
+              "id": "sablier",
+              "name": "Sablier",
+              "description": "Token streaming protocol with NFT-represented streams - pioneered 2019",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/Sablier&output=png",
+              "twitter_handle": "Sablier",
+              "website_url": null
+            },
+            {
+              "id": "superfluid",
+              "name": "Superfluid",
+              "description": "Per-second payment flows with Constant Flow Agreements",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/website/superfluid.finance&output=png",
+              "twitter_handle": "Superfluid_HQ",
+              "website_url": null
+            }
+          ]
+        },
+        {
+          "name": "Ecosystem Connector",
+          "projects": [
+            {
+              "id": "foresight-institute",
+              "name": "Foresight Institute",
+              "description": "Longtermist tech research",
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/ForesightInst&output=png",
+              "twitter_handle": "ForesightInst",
+              "website_url": null
+            },
+            {
+              "id": "plurality-institute",
+              "name": "Plurality Institute",
+              "description": null,
+              "logo_url": "https://images.weserv.nl/?url=unavatar.io/x/pluralityinst&output=png",
+              "twitter_handle": "pluralityinst",
+              "website_url": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+name: Validate Registry PR
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - "data/registry.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Validate JSON Schema
+        run: npm run validate
+
+      - name: Check for duplicate project IDs
+        run: node scripts/check-duplicates.js
+
+      - name: Generate summary
+        if: always()
+        run: |
+          PROJECTS=$(node -e "
+            const d = require('./data/registry.json');
+            let count = 0;
+            for (const q of d.quadrants) for (const c of q.categories) count += c.projects.length;
+            console.log(count);
+          ")
+          CATEGORIES=$(node -e "
+            const d = require('./data/registry.json');
+            let count = 0;
+            for (const q of d.quadrants) count += q.categories.length;
+            console.log(count);
+          ")
+          echo "## Registry Validation" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Projects:** $PROJECTS" >> $GITHUB_STEP_SUMMARY
+          echo "- **Categories:** $CATEGORIES" >> $GITHUB_STEP_SUMMARY
+          echo "- **Schema:** ${{ steps.validate.outcome == 'success' && '✅ Valid' || '❌ Invalid' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Duplicates:** ${{ steps.duplicates.outcome == 'success' && '✅ None' || '❌ Found' }}" >> $GITHUB_STEP_SUMMARY

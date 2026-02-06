@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# Prototype files
+prototype/
+
+# Misc
+.DS_Store
+*.tsbuildinfo
+.env
+.env.local
