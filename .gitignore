@@ -13,3 +13,5 @@ prototype/
 *.tsbuildinfo
 .env
 .env.local
+.vercel
+tasks/
