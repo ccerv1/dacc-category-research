@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Strategic Positioning Map",
-  description: "Market map of projects across atoms/bits and survive/thrive axes",
+  title: "d/acc Market Map",
+  description: "Strategic positioning map of d/acc projects across atoms/bits and survive/thrive axes",
 };
 
 export default function RootLayout({

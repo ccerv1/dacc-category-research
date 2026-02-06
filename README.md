@@ -20,25 +20,84 @@ Open http://localhost:3000.
 
 ## Adding a Project
 
-Edit `data/registry.json` and add an entry to the appropriate quadrant and category:
+### Quick Add (for Claude Code or similar agents)
+
+Fork the repo and run this prompt:
+
+> Clone https://github.com/ccerv1/dacc-category-research, add **[project name]** to the **[category name]** category in `data/registry.json`, then open a PR. Follow the contributing instructions in the README.
+
+### Step-by-Step
+
+1. **Fork and clone** the repo
+2. **Edit `data/registry.json`** — find the right category and add a project entry:
 
 ```json
 {
   "id": "my-project",
   "name": "My Project",
-  "description": "What this project does",
-  "logo_url": "https://example.com/logo.png",
-  "twitter_handle": null,
-  "website_url": null
+  "description": "One sentence about what this project does",
+  "logo_url": "https://images.weserv.nl/?url=unavatar.io/github/my-org&w=400&h=400&fit=cover&output=png",
+  "twitter_handle": "myproject",
+  "website_url": "https://myproject.org"
 }
 ```
 
-Open a PR. The CI workflow will validate the schema and check for duplicate IDs. On merge, a GitHub Action fetches the logo and stores it in `public/images/`.
+3. **Create a branch and PR** with the change
+
+CI will validate the schema and check for duplicate IDs. On merge, a GitHub Action fetches the logo and stores it in `public/images/`.
+
+### Project Entry Fields
+
+| Field | Required | Format |
+|-------|----------|--------|
+| `id` | Yes | Lowercase kebab-case, e.g. `simplex-chat` |
+| `name` | Yes | Display name, e.g. `SimpleX Chat` |
+| `description` | No | One sentence describing the project |
+| `logo_url` | No | URL to a square PNG (use unavatar pattern below) |
+| `twitter_handle` | No | Twitter/X handle without `@` |
+| `website_url` | No | Project website URL |
+
+**Logo URL patterns** (400x400 PNG via unavatar.io):
+- From GitHub org: `https://images.weserv.nl/?url=unavatar.io/github/{org}&w=400&h=400&fit=cover&output=png`
+- From Twitter: `https://images.weserv.nl/?url=unavatar.io/x/{handle}&w=400&h=400&fit=cover&output=png`
+- From website: `https://images.weserv.nl/?url=unavatar.io/website/{domain}&w=400&h=400&fit=cover&output=png`
+
+### Categories
+
+Projects belong to one category in one quadrant:
+
+**atoms-survive** (physical world + resilience)
+- Biodefense & Health Systems
+- Open Source Hardware & Silicon
+- Resilient Manufacturing
+
+**atoms-thrive** (physical world + growth)
+- Decentralized Energy
+- Property Rights & Registries
+- Civic Tech
+
+**bits-survive** (digital world + resilience)
+- Zero-Knowledge Systems
+- Privacy-Preserving Computation
+- Decentralized Identity & Attestation
+- Communication & Messaging
+- Formal Verification & Security
+
+**bits-thrive** (digital world + growth)
+- Democratic Funding Mechanisms
+- Epistemic Infrastructure
+- Governance Tooling
+- Decentralized Monetary Infrastructure
+- Oracle Networks
+- Cross-Chain Infrastructure
+- Data Availability & Storage
+- Streaming & Treasury
+- Ecosystem Connector
 
 ## Validation
 
 ```bash
-npm run validate          # JSON Schema check
+npm run validate                  # JSON Schema check
 node scripts/check-duplicates.js  # Duplicate ID check
 ```
 
